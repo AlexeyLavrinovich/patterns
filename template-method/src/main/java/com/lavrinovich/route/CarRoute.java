@@ -1,0 +1,8 @@
+package com.lavrinovich.route;
+
+public class CarRoute extends Route{
+    @Override
+    public void buildRoute() {
+        System.out.printf("Find a way by car between %s and %s\n", firstCity, secondCity);
+    }
+}
